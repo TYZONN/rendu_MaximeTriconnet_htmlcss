@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid #fff;
+}
+nav a:hover {
+  color: #c22c2c;
+}
+
+.content {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  z-index: 999;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.bloc-intro {
+  background-color: #4c321dbf;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.bloc-bleu {
+  background-color: #34495e;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.bloc-marron {
+  background-color: #70635b;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.eblv-box {
+  background-color: #165c6d;
+  color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+body.index {
+  background-image: url(https://assets-prd.ignimgs.com/2022/08/18/evynfong2-1660838071036.jpg?crop=16%3A9&width=888);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom -110px left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+body.darkdawn {
+  background-image: url(https://s3.amazonaws.com/files.d20.io/images/228578618/aLtoIiaH9dxg8sihwWaUWg/max.jpg?1623703363044);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+body.eblv {
+  background-image: url(https://s3.amazonaws.com/files.d20.io/images/324585277/6Uz_URYx_N87zk6GFgfJ1Q/max.jpg?1674647888073);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.kingdom {
+  background-image:url(https://s3.amazonaws.com/files.d20.io/images/228576839/I3M5oNyWhgQNpiJruxbQoQ/med.jpg?1623702750095);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
