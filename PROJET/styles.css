@@ -83,6 +83,43 @@ main {
   margin-bottom: 15px;
 }
 
+.map-eblv {
+  background-image: url(https://s3.amazonaws.com/files.d20.io/images/332029713/9lHVf0k5nEH9WjS9d5izTQ/max.jpg?1678547524);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.map-kingdom {
+  background-image: url(https://s3.amazonaws.com/files.d20.io/images/331105954/16O2mG2z32P7gvcqpNzl3w/max.jpg?1678021302);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.map-darkdawn {
+  background-image: url(https://cdn.discordapp.com/attachments/849590159762522152/982016751971754074/ETRG1NLgUTKxgqY1tTUdrp.jpg?ex=658dd95e&is=657b645e&hm=39fa2f769536a157adee8c40a83453626610d27c31ea3ab75dd34c69d181dafe&);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 body.index {
   background-image: url(https://assets-prd.ignimgs.com/2022/08/18/evynfong2-1660838071036.jpg?crop=16%3A9&width=888);
   margin: 0;
@@ -126,14 +163,14 @@ body.eblv {
 }
 
 body.kingdom {
-  background-image:url(https://s3.amazonaws.com/files.d20.io/images/228576839/I3M5oNyWhgQNpiJruxbQoQ/med.jpg?1623702750095);
+  background-image:url(https://spikeybits.com/wp-content/uploads/2018/01/Tropical-castle-ruins.jpg);
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   color: #fff;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -141,7 +178,7 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
   bottom: 0;
   width: 100%;
